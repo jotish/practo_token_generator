@@ -1,0 +1,40 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/otp"
+    android:textColor="#006633"
+    android:background="#f0f0f0"
+    android:typeface="monospace"
+     android:gravity="center"
+    android:textStyle="italic"
+    android:padding="5dp">
+	</TextView>
+   <TextView
+       android:id="@+id/otpkey"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       
+        android:textColor="#00FF00"
+         android:gravity="center"
+    android:typeface="monospace"
+       android:textSize="40sp" />
+
+   <TextView
+       android:id="@+id/timertextview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="117dp"
+        android:gravity="center"
+       
+       android:textSize="20sp" />
+   
+</LinearLayout>
