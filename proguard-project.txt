@@ -1,20 +1,40 @@
-# To enable ProGuard in your project, edit project.properties
-# to define the proguard.config property as described in that file.
-#
-# Add project specific ProGuard rules here.
-# By default, the flags in this file are appended to flags specified
-# in ${sdk.dir}/tools/proguard/proguard-android.txt
-# You can edit the include path and order by changing the ProGuard
-# include property in project.properties.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
-
-# Add any project specific keep options here:
-
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+{
+apps: [
+{
+name: "Hotspot",
+file_name: "ray_server_v1.apk",
+package_name: "com.practo.tab.server",
+checksum: "d6e20fa8ddccb6f472a17fbccfd34542d0fbfa84",
+version: "1.0",
+created_at: "2015-07-06 20:20:46",
+modified_at: "2015-07-06 20:20:46",
+shared_key: "tab_hotspot",
+icon_url: "",
+download_url: "https://www.dropbox.com/s/jsmur1tloaj8zrd/ray_server_v1.apk?dl=1"
+},
+{
+name: "Hp e-Print",
+file_name: "hp_e_print_3.0.2_69.apk",
+package_name: "com.hp.android.print",
+checksum: "01d062d8d30aa868d7f31d95f1babd27f25c910d",
+version: "1.0",
+created_at: "2015-07-06 20:20:46",
+modified_at: "2015-07-06 20:20:46",
+shared_key: "tab_hotspot",
+icon_url: "",
+download_url: "https://www.dropbox.com/s/zqxlph79zcrelv4/hp_e_print_3.0.2_69.apk?dl=1"
+},
+{
+name: "Adobe Reader",
+file_name: "adobe_reader_v1.apk",
+package_name: "com.adobe.reader",
+checksum: "faa2f6692235aa13882b1dd0792cf10a93d55d74",
+version: "1.0",
+created_at: "2015-07-06 20:20:46",
+modified_at: "2015-07-06 20:20:46",
+shared_key: "tab_hotspot",
+icon_url: "",
+download_url: "https://www.dropbox.com/s/yjk477l8rgxo1fa/adobe_reader_v1.apk?dl=1"
+}
+]
+}
